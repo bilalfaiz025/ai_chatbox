@@ -1,4 +1,4 @@
-# imagall
+# AI Chatbox
 
 A new Flutter project.
 
