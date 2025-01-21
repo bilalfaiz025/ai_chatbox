@@ -16,7 +16,7 @@ class ChatController extends GetxController {
     isAiTyping.value = true;
 
     var url = Uri.parse(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyA799vaKjzspXb3NazvMlRRVG_y5dBSK5Q");
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=Your-API-KEY");
     var headers = {'Content-Type': 'application/json'};
     var body = jsonEncode({
       "contents": [
